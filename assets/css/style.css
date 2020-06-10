@@ -268,11 +268,19 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .cross {
   position: absolute;
   right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .cross {
+    right: 10px;
+    top: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -347,6 +355,16 @@ section {
   font-size: 23px;
   letter-spacing: -1px;
   color: #979797;
+}
+
+@media (max-width: 768px) {
+  .howItWorks h4 {
+    font-size: 27px;
+  }
+
+  .howItWorks h5 {
+    font-size: 20px;
+  }
 }
 
 .howItWorks h6 {
