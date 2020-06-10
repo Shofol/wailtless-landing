@@ -440,7 +440,6 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #f7f8fc;
-  /* box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
   padding: 50px 0;
   color: #222222;
   font-size: 14px;
@@ -452,4 +451,64 @@ section {
   line-height: 17px;
   letter-spacing: -0.318182px;
   color: #9dafbd;
+}
+
+/*--------------------------------------------------------------
+# Badge
+--------------------------------------------------------------*/
+
+.badge {
+  padding: 50px 60px;
+  background: #fff;
+}
+
+.companyLogo {
+  margin-right: 240px;
+}
+
+.headline {
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+}
+
+.headline .mainTitle {
+  color: #e01616;
+}
+
+.curveArrow {
+  align-self: flex-end;
+  padding-right: 128px;
+  padding-top: 36px;
+}
+
+.process {
+  font-weight: normal;
+  font-size: 52px;
+  color: #000000;
+  text-align: left;
+}
+
+.phoneNo {
+  font-size: 153px;
+  text-align: left;
+  color: #503e9d;
+}
+
+.qrCode {
+  font-weight: normal;
+  font-size: 29px;
+  color: #000000;
+}
+
+.poweredBy {
+  align-self: flex-end;
+}
+
+.powered {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: right;
+  color: #000000;
 }
