@@ -58,6 +58,14 @@ ul {
   background: #7268e3;
 }
 
+.display-none {
+  display: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -163,6 +171,12 @@ section {
   max-height: 40px;
 }
 
+@media (min-width: 768px) {
+  .navPhone {
+    padding-right: 6rem;
+  }
+}
+
 @media (max-width: 768px) {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -242,6 +256,12 @@ section {
   padding-left: 25px;
 }
 
+@media (min-width: 768px) {
+  .mobileArt {
+    padding-right: 6rem;
+  }
+}
+
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
@@ -269,6 +289,7 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
+  transition: display 0.25s;
 }
 
 .cross {
@@ -464,6 +485,11 @@ section {
 
 .companyLogo {
   margin-right: 240px;
+  width: 250px;
+  height: 250px;
+}
+.companyLogo img {
+  object-fit: contain;
 }
 
 .headline {
@@ -500,6 +526,15 @@ section {
   font-weight: normal;
   font-size: 29px;
   color: #000000;
+}
+
+.qrCodeImageBox {
+  width: 149px;
+  height: 149px;
+}
+
+.qrCodeImageBox img {
+  object-fit: contain;
 }
 
 .poweredBy {

@@ -116,3 +116,11 @@
   });
 
 })(jQuery);
+
+
+// document.getElementById('alertCross').addEventListener('click', () => {
+//   document.getElementById('covidAlert').style.display = none;
+// })
+document.getElementById('alertCross').addEventListener("click", function () {
+  document.getElementById('covidAlert').classList.add('display-none');
+});

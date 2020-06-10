@@ -27,8 +27,9 @@
 
     <div class="badge">
         <div class="d-flex justify-content-between">
-            <img src="/assets/img/starbucks.png" id="logo" class="companyLogo" alt="companyLogo" width="250px"
-                height="250px">
+            <div class="companyLogo">
+                <img src="/assets/img/starbucks.png" id="logo" alt="companyLogo" width="250px" height="250px">
+            </div>
             <div class="d-flex flex-column headline">
                 <p class="mainTitle">COVID-19 Procedure</p>
                 <p>Compulsory Online Queue</p>
@@ -36,11 +37,13 @@
             </div>
         </div>
         <p class="process pt-5"> To get SMS token, give a <strong>missed call</strong> on</p>
-        <p class="phoneNo"> 79185 36581</p>
+        <p class="phoneNo" id="mobileNo"> 79185 36581</p>
         <div class="d-flex justify-content-between pt-5">
             <div class="text-left">
                 <p class="qrCode">or scan QR code:</p>
-                <img src="/assets/img/qrcode.png" alt="qrcode">
+                <div class="qrCodeImageBox">
+                    <img id="qrCode" src="/assets/img/qrcode.png" alt="qrcode" width="149px" height="149px">
+                </div>
             </div>
             <div class="poweredBy">
                 <p class="powered">Powered by:</p>

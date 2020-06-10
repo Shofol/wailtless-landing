@@ -35,7 +35,7 @@
 
         <a href="tel:011-40036321" class="ml-auto"><img src="assets/icons/headphone.svg" alt="contact"
             class="img-fluid mr-1">
-          <span class="small-Text">011-40036321</span>
+          <span class="small-Text navPhone">011-40036321</span>
         </a>
       </div>
     </div>
@@ -68,8 +68,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-12 mt-4 mt-sm-0 d-sm-flex justify-content-end align-items-end" data-aos="fade-left"
-          data-aos-delay="200">
+        <div class="col-lg-6 col-12 mt-4 mt-sm-0 d-sm-flex justify-content-end align-items-end mobileArt"
+          data-aos="fade-left" data-aos-delay="200">
           <img class="img-fluid mobileimg" width="326px" src="/assets/img/mobile.png" alt="mobile">
         </div>
       </div>
@@ -79,7 +79,7 @@
 
   <main id="main">
     <!-- ======= Alert Section ======= -->
-    <section class="alertBar py-2 d-flex align-items-center">
+    <section class="alertBar py-2 d-flex align-items-center" id="covidAlert">
       <div class="d-flex flex-column flex-sm-row px-4 px-sm-0">
         <p class="m-0 pr-sm-1 d-flex justify-content-sm-center pb-1 pb-sm-0">
           <img src="/assets/icons/alert.svg" alt="alert" width="14px" class="mr-1">
@@ -89,7 +89,7 @@
           You are required to limit vistors to your store. So, crowds and long queues outside may turn customers away.
         </p>
       </div>
-      <img src="/assets/icons/cross.svg" alt="cancel" class="cross">
+      <a id="alertCross" class="cross cursor-pointer"><img src="/assets/icons/cross.svg" alt="cancel"></a>
     </section>
     <!-- End Alert Section -->
 
