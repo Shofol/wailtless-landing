@@ -114,26 +114,4 @@
     mirror: false
   });
 
-  $(document).ready(function () {
-
-    $('.owl-carousel').owlCarousel({
-      autoplay: true,
-      dots: true,
-      loop: true,
-      // center: true,
-      responsive: {
-        0: {
-          items: 1.5
-        },
-        768: {
-          items: 1.5
-        },
-        900: {
-          items: 3
-        }
-      }
-    }
-    );
-  });
-
 })(jQuery);

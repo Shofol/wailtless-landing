@@ -99,10 +99,10 @@ ul {
 /*--------------------------------------------------------------
 # Owl Carousel
 --------------------------------------------------------------*/
-
+/* 
 .owl-carousel .owl-item img {
   width: auto !important;
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections General
@@ -184,13 +184,13 @@ section {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   background: url("/assets/img/art.svg") no-repeat;
-  background-position: center right;
+  background-position: right 70px;
   background-size: contain;
   background-attachment: scroll !important;
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
 }
 
 #hero h1 {
@@ -238,7 +238,7 @@ section {
   outline: none;
   border: none;
   transition: box-shadow, transform 0.1s;
-  margin-top: 43px;
+  margin-top: 29px;
 }
 
 #hero .btn-get-started:hover {
@@ -246,10 +246,15 @@ section {
   transform: scale(1.01);
 }
 
+.andMore {
+  padding-left: 25px;
+}
+
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
-    background-image: none;
+    background-size: auto;
+    background-position: right bottom;
   }
 }
 
@@ -265,12 +270,17 @@ section {
 
 .alertBar {
   background: #fffbf2;
-  border: 0.5px solid rgba(246, 193, 73, 0.5);
+  border-top: 0.5px solid rgba(246, 193, 73, 0.5);
+  border-bottom: 0.5px solid rgba(246, 193, 73, 0.5);
   font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 40px; */
+}
+
+.cross {
+  position: absolute;
+  right: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -334,7 +344,7 @@ section {
 .howItWorks h4 {
   font-weight: 500;
   font-size: 30px;
-  line-height: 38px;
+  /* line-height: 38px; */
   letter-spacing: -1px;
   color: #24355a;
   margin-bottom: 0;
