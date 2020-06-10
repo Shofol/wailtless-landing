@@ -490,6 +490,7 @@ section {
 }
 .companyLogo img {
   object-fit: contain;
+  object-position: 0 0;
 }
 
 .headline {
@@ -535,6 +536,7 @@ section {
 
 .qrCodeImageBox img {
   object-fit: contain;
+  object-position: 0 0;
 }
 
 .poweredBy {
