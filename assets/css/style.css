@@ -517,6 +517,7 @@ section {
 
 .badge .headline .mainTitle {
   color: #e01616;
+  line-height: 0.8;
 }
 
 .badge .curveArrow {
@@ -595,6 +596,8 @@ section {
 
 .badgeSmall .headline .mainTitle {
   color: #e01616;
+  line-height: 0.8;
+  padding-bottom: 7px;
 }
 
 .badgeSmall .curveArrow {
