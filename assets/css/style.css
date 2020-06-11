@@ -485,71 +485,131 @@ section {
   height: 842px;
 }
 
-.companyLogo {
+.badge .companyLogo {
   margin-right: 240px;
   width: 250px;
   height: 250px;
 }
-.companyLogo img {
+.badge .companyLogo img {
   object-fit: contain;
   object-position: 0 0;
 }
 
-.headline {
+.badge .headline {
   text-align: left;
   font-weight: bold;
   font-size: 40px;
   color: #000;
 }
 
-.headline .mainTitle {
+.badge .headline .mainTitle {
   color: #e01616;
 }
 
-.curveArrow {
+.badge .curveArrow {
   align-self: flex-end;
   padding-right: 128px;
   padding-top: 30px;
 }
 
-.process {
+.badge .process {
   font-weight: normal;
   font-size: 52px;
   color: #000000;
   text-align: left;
 }
 
-.phoneNo {
+.badge .phoneNo {
   font-size: 153px;
   text-align: left;
   color: #503e9d;
 }
 
-.bottom {
+.badge .bottom {
   padding-top: 15px;
 }
 
-.qrCode {
+.badge .qrCode {
   font-weight: normal;
   font-size: 29px;
   color: #000000;
 }
 
-.qrCodeImageBox {
+.badge .qrCodeImageBox {
   width: 149px;
   height: 149px;
 }
 
-.qrCodeImageBox img {
+.badge .qrCodeImageBox img {
   object-fit: contain;
   object-position: 0 0;
 }
 
-.poweredBy {
+.badge .poweredBy {
   align-self: flex-end;
+  font-size: 20px;
+  color: #000000;
 }
 
-.powered {
+/*--------------------------------------------------------------
+# Badge Small
+--------------------------------------------------------------*/
+.badgeSmall {
+  padding: 58px 68px;
+  width: 1040px;
+  height: 735px;
+}
+
+.badgeSmall .companyLogo {
+  margin-right: 126px;
+  width: 250px;
+  height: 250px;
+}
+.badgeSmall .companyLogo img {
+  object-fit: contain;
+  object-position: 0 0;
+}
+
+.badgeSmall .headline {
+  text-align: left;
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+}
+
+.badgeSmall .headline .mainTitle {
+  color: #e01616;
+}
+
+.badgeSmall .curveArrow {
+  align-self: flex-end;
+  padding-right: 100px;
+}
+
+.badgeSmall .process {
+  font-weight: normal;
+  font-size: 45px;
+  color: #000000;
+  text-align: left;
+}
+
+.badgeSmall .phoneNo {
+  font-size: 130px;
+  line-height: 1;
+  text-align: left;
+  color: #503e9d;
+  font-weight: bold;
+}
+
+.badgeSmall .bottom {
+  padding-top: 15px;
+}
+
+.badgeSmall .poweredBy {
+  padding-top: 59px;
+}
+
+.badgeSmall .powered {
   font-weight: normal;
   font-size: 20px;
   text-align: right;
