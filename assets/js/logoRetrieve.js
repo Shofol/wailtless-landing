@@ -5,6 +5,11 @@
     if (urlParams.get('logoLocation')) {
         const imageSrc = urlParams.get('logoLocation');
         document.getElementById("logo").src = imageSrc;
+        document.getElementById("storeNameBox").classList.add('display-none');
+    } else if (urlParams.get('store_name')) {
+        const storeName = urlParams.get('store_name');
+        document.getElementById("companyLogoBox").classList.add('display-none');
+        document.getElementById("storeName").innerHTML = storeName;
     }
 
     if (urlParams.get('qrCodeLocation')) {
