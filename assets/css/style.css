@@ -171,6 +171,19 @@ section {
   max-height: 40px;
 }
 
+.logoText {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000000;
+  padding-left: 7px;
+  padding-top: 4px;
+}
+
+.logoItem {
+  padding-top: 11px;
+}
+
 @media (min-width: 768px) {
   .navPhone {
     padding-right: 6rem;
