@@ -481,6 +481,8 @@ section {
 .badge {
   padding: 50px 60px;
   background: #fff;
+  width: 1190px;
+  height: 842px;
 }
 
 .companyLogo {
@@ -507,7 +509,7 @@ section {
 .curveArrow {
   align-self: flex-end;
   padding-right: 128px;
-  padding-top: 36px;
+  padding-top: 30px;
 }
 
 .process {
@@ -521,6 +523,10 @@ section {
   font-size: 153px;
   text-align: left;
   color: #503e9d;
+}
+
+.bottom {
+  padding-top: 15px;
 }
 
 .qrCode {

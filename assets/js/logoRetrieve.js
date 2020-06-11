@@ -14,6 +14,8 @@
 
     if (urlParams.get('mobileNumber')) {
         const mobileNumber = urlParams.get('mobileNumber');
-        document.getElementById("mobileNo").innerHTML = mobileNumber;
+        const firstPart = mobileNumber.substring(0, 5);
+        const secondPart = mobileNumber.substring(5, 10);
+        document.getElementById("mobileNo").innerHTML = firstPart + ' ' + secondPart;
     }
 })()
