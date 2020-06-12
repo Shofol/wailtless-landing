@@ -534,6 +534,9 @@ section {
   font-size: 153px;
   text-align: left;
   color: #503e9d;
+  word-spacing: -15px;
+  font-weight: 800;
+  letter-spacing: -2px;
 }
 
 .badge .bottom {
@@ -614,7 +617,8 @@ section {
   line-height: 1;
   text-align: left;
   color: #503e9d;
-  font-weight: bold;
+  font-weight: 800;
+  word-spacing: -15px;
 }
 
 .badgeSmall .bottom {
